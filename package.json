@@ -1,0 +1,29 @@
+{
+  "name": "assign_mod_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.4",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.6.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
